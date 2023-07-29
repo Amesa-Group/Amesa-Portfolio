@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Footer</div>
+    <div>Header</div>
   )
 }
 
