@@ -42,7 +42,7 @@ function Header() {
   return (
     <header className='z-10 fixed top-0 left-0 w-full h-[70px] bg-white dark:bg-slate-900 shadow-lg flex items-center justify-between md:px-[12%] px-5'>
      {/* logo */}
-      <img src={theme === 'dark' ? logo_dark : logo_light } alt="" className='w-[9rem]'/>
+      <img src={theme === 'dark' ? logo_dark : logo_light } alt="" className='cursor-pointer w-[9rem]'/>
 
       {/* Menu Responsive */}
       <div onClick={() => setMenu(!menu)}
