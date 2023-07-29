@@ -8,7 +8,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <>
+    <div className='bg-white dark:bg-[#09111f]'>
       <Header/>
       <Hero/>
       <About/>
@@ -16,7 +16,7 @@ function App() {
       <Works/>
       <Contact/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
