@@ -5,18 +5,8 @@ import { AiFillLinkedin, AiFillFacebook, AiOutlineTwitter } from 'react-icons/ai
 
 function Footer() {
  
- /* const [ logo, setLogo ] = useState(false);
-
-  useEffect(() => {
-    if(localStorage.getItem("theme") === 'dark'){
-      setLogo(true)
-    } else if (localStorage.getItem('theme') === 'light'){
-      setLogo(false)
-    }
-  }, [logo])*/
- 
   return (
-    <div className=' sm: w-full h-[55vh] dark:bg-slate-900 mt-7 pt-8   '>
+    <div className=' sm: w-full h-[55vh] bg-gray-100 dark:bg-slate-900 mt-7 pt-8   '>
       <div className=' flex flex-row justify-around item-center leading-9 '>
       <div className='text-sm text-white '>
         <img src={ logo_light  } className='w-[200px]' />
