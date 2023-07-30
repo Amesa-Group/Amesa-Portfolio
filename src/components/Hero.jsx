@@ -8,7 +8,7 @@ function Hero() {
       <h2 className='md:text-5xl max-[460px]:text-3xl text-4xl  md:text-left text-center font-bold text-[#f5c32c]'>Do you need a website?</h2>
       <h3 className='md:text-6xl max-[460px]:text-3xl text-5xl font-bold text-[#242D49] md:text-left text-center dark:text-white'>Start Your Dream <br/> Website!</h3>
       <p className=' md:text-left text-center text-1xl text-[#929292]'>We have been building website for more than a decade.</p>
-      <button className='md:mt-4 p-3 w-[12rem] bg-[#f5c32c] hover:bg-[#e6b421] text-xl text-white rounded-[10px]'>Contact us</button>
+      <button id="btn" className='md:mt-4  w-[12rem] bg-[#242D49] dark:bg-[#f5c32c] hover:bg-[#] text-xl text-white rounded-[4px]  shadow-[0px_4px_0px_0px_#191e2e] hover:shadow-[0px_-4px_0px_0px_#191e2e] dark:shadow-[0px_4px_0px_0px_#8d6b05] dark:hover:shadow-[0px_-4px_0px_0px_#8d6b05]'>Contact us</button>
      </div>
      <div className='md:w-[36rem] max-[460px]:w-[18rem] w-[20rem]'>
       <img src={heroImage} alt="Ameesa Solutions" className='w-full'/>

@@ -23,7 +23,7 @@ function About() {
               to unleash innovative and effective designs that boost
               your brand and grow your business to achieve your goals.
             </p>
-            <button className='md:mt-4 p-3 w-[9rem] bg-[#242D49] dark:bg-[#f5c32c] hover:bg-[#] text-xl text-white rounded-[10px]'>
+            <button id="btn" className='w-[9rem] bg-[#242D49] dark:bg-[#f5c32c] hover:bg-[#] text-xl text-white rounded-[4px]  shadow-[0px_4px_0px_0px_#191e2e] hover:shadow-[0px_-4px_0px_0px_#191e2e] dark:shadow-[0px_4px_0px_0px_#8d6b05] dark:hover:shadow-[0px_-4px_0px_0px_#8d6b05]'>
               Contact us
             </button>
           </div>
