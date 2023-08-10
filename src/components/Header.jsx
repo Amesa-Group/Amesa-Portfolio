@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {FaMoon} from 'react-icons/fa'
 import {BsSunFill} from 'react-icons/bs'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
-import logolight from '../assets/logolight.png'
+import Logow from '../assets/Logow.png'
 import logodark from '../assets/logodark.png'
 
 function Header() {
@@ -42,7 +42,7 @@ function Header() {
   return (
     <header className='z-10 fixed top-0 left-0 w-full h-[70px] bg-white dark:bg-slate-900 shadow-lg flex items-center justify-between md:px-[12%] px-5'>
      {/* logo */}
-      <img src={theme === 'dark' ? logodark : logolight } alt="" className='cursor-pointer w-[9rem]'/>
+      <img src={theme === 'dark' ? logodark : Logow } alt="" className='cursor-pointer w-[9rem]'/>
 
       {/* Menu Responsive */}
       <div onClick={() => setMenu(!menu)}

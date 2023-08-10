@@ -1,6 +1,6 @@
 import React, { useEffect, useState} from 'react'
 
-import logolight from '../assets/logolight.png'
+import Logow from '../assets/Logow.png'
 import { AiFillLinkedin, AiFillFacebook, AiOutlineTwitter } from 'react-icons/ai';
 
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
     <div className=' sm: w-full h-[55vh] bg-gray-100 dark:bg-slate-900 mt-7 pt-8   '>
       <div className=' flex flex-row justify-around item-center leading-9 '>
       <div className='text-sm text-white '>
-        <img src={ logolight  } className='w-[200px]' />
+        <img src={Logow} className='w-[200px]' />
         <p className='pt-4 dark:text-gray-200 text-[#242D49]'>We have been building <br />
         websites for more than a <br />
         decade. </p>
