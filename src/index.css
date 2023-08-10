@@ -10,8 +10,9 @@
     position: relative;
 }
 
-/* #line-hover {
+#line-hover {
     position: relative;
+    z-index: 100;
 }
 
 #line-hover:after {
@@ -22,12 +23,12 @@
     width: 0%;
     height: 3px;
     background: #f5c32c;
-    transition: 3px width linear;
+    transition: 500ms width linear;
 }
 
 #input:focus + #line-hover:after {
     width: 100%;
-} */
+}
 
 #btn {
     padding: 9px 10px;

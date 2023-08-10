@@ -8,12 +8,12 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className='bg-white dark:bg-[#09111f]'>
+    <div className='w-full bg-white dark:bg-[#09111f]'>
       <Header/>
       <Hero/>
       <About/>
       <Skills/>
-      <Works/>
+      {/* <Works/> */}
       <Contact/>
       <Footer/>
     </div>
