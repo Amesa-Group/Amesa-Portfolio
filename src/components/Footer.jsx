@@ -23,9 +23,9 @@ function Footer() {
       </div>
       <div className='text-sm   dark:text-gray-200 text-[#242D49] leading-7'>
         <h3>Contact Info</h3>
-        <p className='pt-3'>Email: example@abc.com</p>
+        <p className='pt-3'>Email: tujeerhalane@gmail.com</p>
         <p>Number: 00000000</p>
-        <address>Somalia, Muqdisho</address>
+        <address>Somalia, Kenya Ethiopia</address>
       </div>
       </div>
       <div className='flex  justify-between items-center m-[6%]   border-t-[1px] dark:border-gray-200'>
