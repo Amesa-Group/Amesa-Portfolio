@@ -8,7 +8,7 @@ function Footer() {
     setYear(date.getFullYear())
   }, [])
   return (
-    <div className='flex items-center justify-center flex-col gap-4 w-full p-6 bg-[#e9e8e8] dark:bg-slate-900 mt-7 '>
+    <div className='flex items-center justify-center flex-col gap-4 w-full p-6 bg-gray-200 dark:bg-slate-900 mt-7 '>
     <span id="text-sm" className=' text-xl text-[#222] dark:text-gray-300 mt-3'>© {year} Amesa Solutions . All rigths reserved</span>
       <ul id="hidden" className=' flex items-center justify-center gap-4 text-gray-400'>
         <li>Home</li>

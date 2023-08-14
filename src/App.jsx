@@ -9,7 +9,7 @@ import Social from './components/Social'
 
 function App() {
   return (
-    <div className='w-full bg-white dark:bg-[#09111f]'>
+    <div className=' bg-white dark:bg-[#09111f]'>
       <Header/>
       <Hero/>
       <About/>
