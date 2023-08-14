@@ -40,7 +40,7 @@ function Header() {
   }
 
   return (
-    <div className='z-10 fixed top-0 left-0 w-full h-[70px] bg-white dark:bg-slate-900 shadow-lg flex items-center justify-between px-5 md:px-[12%] '>
+    <header className='fixed top-0 left-0 z-10 w-full h-[70px] bg-white dark:bg-slate-900 shadow flex items-center justify-between px-5 md:px-[12%] '>
       {/* logo */}
       <img src={theme === 'dark' ? logodark : Logow} alt="" className='cursor-pointer w-[9rem]' />
 
@@ -51,7 +51,7 @@ function Header() {
       </div>
 
       {/* navbar */}
-      <div className={`${menu ? 'flex md:flex ' : ' hidden md:flex'} fixed md:static  top-[71px] dark:top-[71.3px] md:top-0  left-0 md:left-0 flex flex-col md:flex-row shadow md:shadow-none   md:items-center bg-white md:bg-none  dark:bg-slate-900 w-[80%] md:w-auto  h-[100vh] md:h-auto `}>
+      <div className={`${menu ? 'flex md:flex ' : ' hidden md:flex'} fixed md:static  top-[71px] dark:top-[71.3px] md:top-0  right-0 md:right-0 flex flex-col md:flex-row shadow md:shadow-none   md:items-center bg-white md:bg-none  dark:bg-slate-900 w-[80%] md:w-auto  h-[100vh] md:h-auto `}>
 
         {/* navs */}
         <span className='p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer transition-all after:hidden md:hover:after:block after:absolute
@@ -73,7 +73,7 @@ function Header() {
 
       </div>
 
-    </div>
+    </header>
   )
 }
 
