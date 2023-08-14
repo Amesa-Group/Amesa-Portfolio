@@ -51,7 +51,7 @@ function Header() {
       </div>
 
       {/* navbar */}
-      <div className={`${menu ? 'flex md:flex ' : ' hidden md:flex'} fixed md:static  top-[71px] dark:top-[71.3px] md:top-0  right-0 md:right-0 flex flex-col md:flex-row shadow md:shadow-none   md:items-center bg-white md:bg-none  dark:bg-slate-900 w-[80%] md:w-auto  h-[100vh] md:h-auto `}>
+      <div className={`${menu ? 'flex md:flex ' : ' hidden md:flex'} fixed md:static  top-[71px] dark:top-[71.3px] md:top-0  left-0 md:left-0 flex flex-col md:flex-row shadow md:shadow-none   md:items-center bg-white md:bg-none  dark:bg-slate-900 w-[80%] md:w-auto  h-[100vh] md:h-auto `}>
 
         {/* navs */}
         <span className='p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer transition-all after:hidden md:hover:after:block after:absolute
