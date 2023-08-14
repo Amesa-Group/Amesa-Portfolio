@@ -6,7 +6,6 @@ import { useEffect } from 'react';
 
 function Hero() {
   useEffect(() => {
-    Aos.init({duration: 2000});
     Aos.refresh({duration: 2000});
   },[])
 
