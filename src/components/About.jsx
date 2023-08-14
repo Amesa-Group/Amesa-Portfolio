@@ -11,17 +11,17 @@ function About() {
   }, [])
 
   return (
-    <div className='md:px-[11%] px-6 mt-16 w-full h-[100vh] md:h-[70vh] bg-white dark:bg-[#09111f]'>
-      <div className='flex md:flex-row flex-col md:gap-16 items-center justify-center  md:justify-between'>
+    <div className='px-6 md:px-[11%] mt-16 w-full h-[100vh] md:h-[70vh] bg-white dark:bg-[#09111f]'>
+      <div className='flex flex-col md:flex-row  md:gap-16 items-center justify-center  md:justify-between'>
          <div className='w-[80%] mt-4 md:mt-0 md:w-[120rem]'>
             <img src={aboutImg} alt="Ameesa Solutions" className='w-full'  
             data-aos="fade-right"/>
           </div>
-          <div className='text-center md:text-left flex flex-col gap-4 md:items-start items-center' 
+          <div className='text-center md:text-left flex flex-col gap-4 items-center md:items-start ' 
           data-aos="fade-up"
           data-aos-anchor-placement="top-center">
             <h2 className='font-bold text-3xl text-[#242D49] dark:text-white'><span className="text-[#f5c32c]">About </span> Us</h2>
-            <p className='md:text-left text-center md:text-2xl break-words break-before-left dark:text-white'>We have been building websites for more than a decade.
+            <p className='text-center md:text-left  md:text-2xl break-words break-before-left dark:text-white'>We have been building websites for more than a decade.
               From small businesses to large corporations, and across
               industries and markets, our creative team is determined
               to unleash innovative and effective designs that boost

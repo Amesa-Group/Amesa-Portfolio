@@ -40,18 +40,18 @@ function Header() {
   }
 
   return (
-    <div className='z-10 fixed top-0 left-0 w-full h-[70px] bg-white dark:bg-slate-900 shadow-lg flex items-center justify-between md:px-[12%] px-5'>
+    <div className='z-10 fixed top-0 left-0 w-full h-[70px] bg-white dark:bg-slate-900 shadow-lg flex items-center justify-between px-5 md:px-[12%] '>
       {/* logo */}
       <img src={theme === 'dark' ? logodark : Logow} alt="" className='cursor-pointer w-[9rem]' />
 
       {/* Menu Responsive */}
       <div onClick={() => setMenu(!menu)}
-        className='md:hidden bg-[#f5c32c] text-slate-800 text-xl shadow dark:bg-slate-800 rounded mx-4 flex items-center justify-center cursor-pointer w-[40px] h-[40px] dark:text-[#f5c32c]'>
+        className='flex md:hidden bg-[#f5c32c] text-slate-800 text-xl shadow dark:bg-slate-800 rounded mx-4 items-center justify-center cursor-pointer w-[40px] h-[40px] dark:text-[#f5c32c]'>
         {!menu ? <AiOutlineMenu /> : <AiOutlineClose />}
       </div>
 
       {/* navbar */}
-      <div className={`${menu ? 'md:flex flex ' : 'md:flex hidden'} md:static fixed md:top-0 md:right-0 top-[71px] dark:top-[71.3px] right-0 flex md:flex-row md:shadow-none shadow flex-col md:items-center md:bg-none bg-white dark:bg-slate-900 md:w-auto w-[80%] md:h-auto h-[100vh]`}>
+      <div className={`${menu ? 'flex md:flex ' : ' hidden md:flex'} fixed md:static  top-[71px] dark:top-[71.3px] md:top-0  right-0 md:right-0 flex flex-col md:flex-row shadow md:shadow-none   md:items-center bg-white md:bg-none  dark:bg-slate-900 w-[80%] md:w-auto  h-[100vh] md:h-auto `}>
 
         {/* navs */}
         <span className='p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer transition-all after:hidden md:hover:after:block after:absolute

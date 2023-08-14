@@ -38,11 +38,11 @@ function Skills() {
   
 
   return (
-    <div className='flex md:flex-row flex-col items-center justify-around  mt-9'>
+    <div className='flex flex-col md:flex-row  items-center justify-around  mt-9'>
 
       {/* skill progres */}
-      <div className='flex flex-col gap-4 items-center w-full md:w-auto md:px-0 px-8'>
-      <h2 className='text-3xl font-bold dark:text-white'>SKILLS</h2>
+      <div className='flex flex-col gap-4  w-full md:w-auto px-8 md:px-0 '>
+      <h2 className='text-center md:text-left text-3xl font-bold dark:text-white'>SKILLS</h2>
         <div id="progress-bar"className='overflow-hidden w-full md:w-[70vmin] h-[6vmin] bg-white rounded  dark:bg-slate-800 flex items-center justify-between p-7 px-4 dark:text-white'>
           <div className='flex items-center gap-2 text-lg md:text-xl font-medium'>
             <BiLogoReact className='text-2xl text-[#f5c32c] '/>
