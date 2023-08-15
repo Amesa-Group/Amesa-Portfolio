@@ -11,7 +11,7 @@ function Social() {
   }, [])
 
   return (
-    <div className='flex flex-wrap gap-4 items-center justify-center mb-14'>
+    <div className='flex flex-wrap gap-4 items-center justify-center mb-[5rem]'>
         {/* WhatsApp */}
         <div data-aos="fade-right"
         className='border dark:border-slate-950 w-[190px] flex flex-col gap-1 items-center justify-center dark:bg-slate-800 bg-white shadow-xl rounded-lg p-6'>
