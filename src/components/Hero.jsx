@@ -11,8 +11,7 @@ function Hero() {
 
   return (
     <div className='px-6 md:px-[11%] mt-16 w-full h-[90vh] md:h-[80vh] bg-white dark:bg-[#09111f] flex flex-col-reverse md:flex-row items-center justify-center  md:justify-between'>
-     <div className='flex md:items-start gap-3 flex-col items-center '  data-aos="fade-up"
-     data-aos-anchor-placement="top-center">
+     <div className='flex md:items-start gap-3 flex-col items-center '  data-aos="fade-up">
       <h2 id="text-3xl" className='text-4xl md:text-5xl  text-center  md:text-left font-bold text-[#f5c32c]'>Do you need a website?</h2>
       <h3 id="text-3xl" className='text-5xl md:text-6xl  font-bold text-[#242D49] text-center md:text-left  dark:text-white'>Start Your Dream <br/> Website!</h3>
       <p className=' md:text-left text-center text-1xl text-[#929292]'>We have been building website for more than a decade.</p>
@@ -21,7 +20,7 @@ function Hero() {
      <div id="w-18rem" className='md:w-[36rem] w-[20rem]'>
       <img src={heroImage} alt="Ameesa Solutions" className='w-full' 
        data-aos="fade-up"
-       data-aos-anchor-placement="top-center"/>
+       />
      </div>
     </div>
   )

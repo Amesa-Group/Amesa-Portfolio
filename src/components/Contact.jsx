@@ -20,7 +20,7 @@ function Contact() {
        {/* title */}
        <div className='mx-auto lg:mb-8'>
        <h1 className='font-bold text-3xl text-[#f5c32c] text-center'>
-        Contact us
+        Contact <span className='text-slate-800 dark:text-white'>us</span>
        </h1>
       </div>
       {/* content */}

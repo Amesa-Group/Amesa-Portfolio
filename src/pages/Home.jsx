@@ -10,7 +10,7 @@ import Social from '../components/Social'
 
 function Home() {
   return (
-    <div className=' bg-white dark:bg-[#09111f]'>
+    <div className='bg-white dark:bg-[#09111f] relative'>
       <Header/>
       <Hero/>
       <About/>
