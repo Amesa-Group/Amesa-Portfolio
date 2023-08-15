@@ -40,7 +40,7 @@ function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 z-10 w-full h-[70px] bg-white dark:bg-slate-900 shadow flex justify-between items-center md:px-[12%] px-[7%]">
+    <header className="w-full h-[70px] bg-white dark:bg-slate-900 shadow flex justify-between items-center md:px-[12%] px-[7%]">
       <Link to="/">
         <img
           src={theme === "dark" ? logodark : Logow}
@@ -59,7 +59,7 @@ function Header() {
       <div
         className={` ${
           menu ? "hidden md:flex" : " flex"
-        } absolute md:static md:top-0 top-[71px]  left-0 bg-white md:bg-none  dark:bg-slate-900 shadow md:shadow-none w-full md:w-auto flex flex-col md:flex-row md:items-center items-start md:px-0 px-[7%] md:py-0 py-4`}
+        } absolute md:static md:top-0 top-[71px]  left-0 z-10 bg-white md:bg-none  dark:bg-slate-900 shadow md:shadow-none w-full md:w-auto flex flex-col md:flex-row md:items-center items-start md:px-0 px-[7%] md:py-0 py-4`}
       >
         <Link
           className="p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer after:transition-[width] after:hidden md:hover:after:block after:absolute

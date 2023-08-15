@@ -6,6 +6,9 @@ body {
     overflow-x: hidden;
 }
 
+#root {
+    background: #f5c32c !important;
+}
 
 #input {
     width: 100%;
