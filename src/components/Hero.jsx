@@ -10,7 +10,7 @@ function Hero() {
   },[])
 
   return (
-    <div className='px-6 md:px-[11%] mt-16 w-full h-[90vh] md:h-[80vh] bg-white dark:bg-[#09111f] flex flex-col-reverse md:flex-row items-center justify-center  md:justify-between'>
+    <div className='px-6 md:px-[11%]  w-full h-[90vh] md:h-[80vh] bg-white dark:bg-[#09111f] flex flex-col-reverse md:flex-row items-center justify-center  md:justify-between'>
      <div className='flex md:items-start gap-3 flex-col items-center '  data-aos="fade-up">
       <h2 id="text-3xl" className='text-4xl md:text-5xl  text-center  md:text-left font-bold text-[#f5c32c]'>Do you need a website?</h2>
       <h3 id="text-3xl" className='text-5xl md:text-6xl  font-bold text-[#242D49] text-center md:text-left  dark:text-white'>Start Your Dream <br/> Website!</h3>
