@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   // Menu Responsive logic
-  const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(true);
   // darkMode Logic
   const [theme, setTheme] = useState("dark");
 
@@ -62,7 +62,7 @@ function Header() {
         } absolute md:static md:top-0 top-[71px]  left-0 bg-white md:bg-none  dark:bg-slate-900 shadow md:shadow-none w-full md:w-auto flex flex-col md:flex-row md:items-center items-start md:px-0 px-[7%] md:py-0 py-4`}
       >
         <Link
-          className="p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer transition-all after:hidden md:hover:after:block after:absolute
+          className="p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer after:transition-[width] after:hidden md:hover:after:block after:absolute
          after:bottom-[-10.9px] after:left-0 md:after:w-full hover:after:hidden after:h-[3px] after:bg-[#F5C32C] hover:text-[#F5C32C]"
         >
           Home
