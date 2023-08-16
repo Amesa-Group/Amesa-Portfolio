@@ -22,7 +22,7 @@ function Contact() {
   };
 
   return (
-    <div className='mt-10 px-6 md:px-[11%] md:mt-16 w-full h-[70vh] md:h-[80vh] bg-white dark:bg-[#09111f]'>
+    <div className='mt-14 px-6 md:px-[11%] w-full h-[70vh] md:h-[80vh] bg-white dark:bg-[#09111f]'>
        {/* title */}
        <div className='mx-auto lg:mb-8'>
        <h1 className='font-bold text-3xl text-[#f5c32c] text-center'>

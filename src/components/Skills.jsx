@@ -28,7 +28,7 @@ function Skills() {
   
 
   return (
-    <div className='flex flex-col md:flex-row  items-center justify-around  mt-9'>
+    <div className='flex flex-col md:flex-row  items-center justify-around'>
 
       {/* skill progres */}
       <div className='flex flex-col gap-4  w-full md:w-auto px-8 md:px-0 '>
