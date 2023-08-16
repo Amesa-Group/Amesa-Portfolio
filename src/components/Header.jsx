@@ -40,7 +40,7 @@ function Header() {
   };
 
   return (
-    <header className="w-full h-[70px] bg-white dark:bg-slate-900 shadow flex justify-between items-center md:px-[12%] px-[7%]">
+    <header className="fixed top-0 left-0 z-10 w-full h-[70px] bg-white dark:bg-slate-900 shadow flex justify-between items-center md:px-[12%] px-[7%]">
       <Link to="/">
         <img
           src={theme === "dark" ? logodark : Logow}

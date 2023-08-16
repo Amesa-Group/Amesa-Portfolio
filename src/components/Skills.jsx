@@ -4,18 +4,8 @@ import { BiLogoReact } from 'react-icons/bi'
 import { SiNodedotjs, SiTailwindcss } from 'react-icons/si'
 import { FaWordpressSimple } from 'react-icons/fa'
 import { PiFigmaLogo } from 'react-icons/pi'
-import { MdDesignServices } from 'react-icons/md'
-import ProgressBar from "@ramonak/react-progress-bar";
-import Aos from 'aos'
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 function Skills() {
-  useEffect(() => {
-    Aos.init({duration: 2000});
-    Aos.refresh({duration: 2000})
-  }, [])
-
 
   const scrollAnimate = () => {
     const triggerBottom = window.innerHeight / 5 * 4;
@@ -86,7 +76,7 @@ function Skills() {
       </div>
       {/* image */}
       <div className='flex items-center justify-center w-auto h-[430px]'>
-       <img src={skilsImage} alt="Skills image" className='w-full h-full' data-aos="fade-left" />
+       <img src={skilsImage} alt="Skills image" className='w-full h-full' />
       </div>
 
     </div>

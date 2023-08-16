@@ -1,9 +1,6 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser'
 import ContactImg from '../assets/Contact us.png'
-import Aos from 'aos'
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function Contact() {
@@ -24,13 +21,8 @@ function Contact() {
       e.target.reset()
   };
 
-  useEffect(() => {
-    Aos.init({duration: 2000});
-    Aos.refresh({duration: 2000})
-  }, [])
-
   return (
-    <div className='px-6 md:px-[11%]  mt-1 md:mt-16 w-full h-[70vh] md:h-[80vh] bg-white dark:bg-[#09111f]'>
+    <div className='mt-10 px-6 md:px-[11%] md:mt-16 w-full h-[70vh] md:h-[80vh] bg-white dark:bg-[#09111f]'>
        {/* title */}
        <div className='mx-auto lg:mb-8'>
        <h1 className='font-bold text-3xl text-[#f5c32c] text-center'>
@@ -38,9 +30,7 @@ function Contact() {
        </h1>
       </div>
       {/* content */}
-      <div className='mt-4 md:mt-0  w-full md:w-auto flex flex-col md:flex-row  md:gap-16 items-center justify-center'
-       data-aos="fade-up"
-       data-aos-anchor-placement="top-center">
+      <div className='mt-4 md:mt-0  w-full md:w-auto flex flex-col md:flex-row  md:gap-16 items-center justify-center'>
          <div className='hidden md:flex mt-4 md:mt-0 md:w-[24rem]'>
             <img src={ContactImg} alt="Ameesa Solutions" className='w-full' data-aos="fade-right"/>
           </div>
