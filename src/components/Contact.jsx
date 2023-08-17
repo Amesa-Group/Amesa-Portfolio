@@ -37,7 +37,9 @@ function Contact() {
            <div className="w-[100%] md:w-1/2 flex flex-col gap-4">
            <h2 className='text-xl font-medium text-slate-800 dark:text-gray-100'>Get In Touch  Us</h2>
             <form  ref={form} onSubmit={sendEmail}
-            className='flex flex-col gap-4'>
+            className='flex flex-col gap-4'
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
              <div className='flex flex-col'>
                 <input
                 type='text'

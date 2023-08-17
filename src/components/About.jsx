@@ -1,14 +1,7 @@
 import React from 'react'
 import aboutImg from '../assets/about.png'
-import Aos from 'aos'
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 function About() {
-  useEffect(() => {
-    Aos.init({duration: 2000});
-    Aos.refresh({duration: 2000})
-  }, [])
 
   return (
     <div className='px-6 md:px-[11%] mt-10 w-full h-[100vh] md:h-[70vh] bg-white dark:bg-[#09111f]'>

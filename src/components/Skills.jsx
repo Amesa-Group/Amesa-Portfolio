@@ -31,9 +31,10 @@ function Skills() {
     <div className='flex flex-col md:flex-row  items-center justify-around'>
 
       {/* skill progres */}
-      <div className='flex flex-col gap-4  w-full md:w-auto px-8 md:px-0 '>
+      <div className='flex flex-col gap-4  w-full md:w-auto px-8 md:px-0 '  data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
       <h2 className='text-center md:text-left text-3xl font-bold dark:text-white'>SKILLS</h2>
-        <div id="progress-bar"className='overflow-hidden w-full md:w-[70vmin] h-[6vmin] bg-white rounded  dark:bg-slate-800 flex items-center justify-between p-7 px-4 dark:text-white'>
+        <div id="progress-bar" className='overflow-hidden w-full md:w-[70vmin] h-[6vmin] bg-white rounded  dark:bg-slate-800 flex items-center justify-between p-7 px-4 dark:text-white'>
           <div className='flex items-center gap-2 text-lg md:text-xl font-medium'>
             <BiLogoReact className='text-2xl text-[#f5c32c] '/>
             <h2>React Js</h2>
@@ -76,7 +77,7 @@ function Skills() {
       </div>
       {/* image */}
       <div className='flex items-center justify-center w-auto h-[430px]'>
-       <img src={skilsImage} alt="Skills image" className='w-full h-full' />
+       <img src={skilsImage} alt="Skills image" className='w-full h-full' data-aos="fade-down"/>
       </div>
 
     </div>
