@@ -4,7 +4,8 @@ import { BsSunFill } from "react-icons/bs";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logow from "../assets/Logow.png";
 import logodark from "../assets/logodark.png";
-import { Link } from "react-router-dom";
+// ES6 Imports
+import { Link } from "react-scroll";
 
 function Header() {
   // Menu Responsive logic
@@ -41,7 +42,7 @@ function Header() {
 
   return (
     <header className="fixed top-0 left-0 z-10 w-full h-[70px] bg-white dark:bg-slate-900 shadow  dark:border-b-[1px] border-gray-800 flex justify-between items-center md:px-[12%] px-[7%]">
-      <Link to="/">
+      <Link to="home">
         <img
           src={theme === "dark" ? logodark : Logow}
           alt=""
@@ -62,30 +63,65 @@ function Header() {
         } absolute md:static md:top-0 top-[70px]  left-0 z-10 bg-white md:bg-none border-t-[1px]  dark:border-gray-800 md:border-none dark:bg-slate-900 shadow md:shadow-none w-full md:w-auto flex flex-col md:flex-row md:items-center items-start md:px-0 px-[7%] md:py-0 py-4`}
       >
         <Link
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          hashSpy={true}
+          offset={-70}
+          duration={1000}
+          to="home"
           className="p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer after:transition-[width] after:hidden md:hover:after:block after:absolute
          after:bottom-[-10.9px] after:left-0 md:after:w-full hover:after:hidden after:h-[3px] after:bg-[#F5C32C] hover:text-[#F5C32C]"
         >
           Home
         </Link>
         <Link
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          hashSpy={true}
+          offset={-70}
+          duration={1000}
+          to="About"
           className="p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer transition-all after:hidden md:hover:after:block after:absolute
          after:bottom-[-10.9px] after:left-0 md:after:w-full hover:after:hidden after:h-[3px] after:bg-[#F5C32C] hover:text-[#F5C32C]"
         >
           About
         </Link>
         <Link
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          hashSpy={true}
+          offset={-70}
+          duration={1000}
+          to="Skills"
           className="p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer transition-all after:hidden md:hover:after:block after:absolute
          after:bottom-[-10.9px] after:left-0 md:after:w-full  hover:after:hidden after:h-[3px] after:bg-[#F5C32C] hover:text-[#F5C32C]"
         >
           Skills
         </Link>
-        <Link
+        {/* <Link
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        hashSpy={true}
+        offset={-70}
+        duration={1000}
+        to="Works"
           className="p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer transition-all after:hidden md:hover:after:block after:absolute
          after:bottom-[-10.9px] after:left-0 md:after:w-full hover:after:hidden after:h-[3px] after:bg-[#F5C32C] hover:text-[#F5C32C]"
         >
           Our Works
-        </Link>
+        </Link> */}
         <Link
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          hashSpy={true}
+          offset={-70}
+          duration={1000}
+          to="Contact"
           className="p-3 px-4 font-medium dark:text-gray-100 dark:hover:text-[#f5c32c] relative cursor-pointer transition-all after:hidden md:hover:after:block after:absolute
          after:bottom-[-10.9px] after:left-0 md:after:w-full hover:after:hidden after:h-[3px] after:bg-[#F5C32C] hover:text-[#F5C32C]"
         >
