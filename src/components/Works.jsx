@@ -3,7 +3,7 @@ import SliderData from '../data/SliderData'
 
 function Works() {
   return (
-    <div>
+    <div id="Works">
       
     </div>
   )
