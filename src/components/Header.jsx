@@ -101,7 +101,7 @@ function Header() {
         >
           Skills
         </Link>
-        {/* <Link
+        <Link
         activeClass="active"
         spy={true}
         smooth={true}
@@ -113,7 +113,7 @@ function Header() {
          after:bottom-[-10.9px] after:left-0 md:after:w-full hover:after:hidden after:h-[3px] after:bg-[#F5C32C] hover:text-[#F5C32C]"
         >
           Our Works
-        </Link> */}
+        </Link>
         <Link
           activeClass="active"
           spy={true}
