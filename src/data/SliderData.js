@@ -24,7 +24,7 @@ const SliderData = [
         id: 3,
         Title: "Tujeer",
         Description: "Blog news Website",
-        url: "tujeer.com",
+        url: "https://tujeer.com",
         urlImage: "https://i.ibb.co/kqCnsHz/Tujeer-blog-Themplate.jpg"
     },
 ]
