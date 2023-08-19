@@ -20,6 +20,13 @@ const SliderData = [
         url: "https://birmadonline.com",
         urlImage: "https://i.ibb.co/c3kG8TH/Birmad-Online-Themplate.jpg"
     },
+    {
+        id: 3,
+        Title: "Tujeer",
+        Description: "Blog news Website",
+        url: "tujeer.com",
+        urlImage: "https://i.ibb.co/kqCnsHz/Tujeer-blog-Themplate.jpg"
+    },
 ]
 
 export default SliderData

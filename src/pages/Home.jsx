@@ -15,7 +15,7 @@ function Home() {
       <Hero/>
       <About/>
       <Skills/>
-      {/* <Works/> */}
+      <Works/>
       <Contact/>
       <Social/>
       <Footer/>
