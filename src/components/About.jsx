@@ -14,11 +14,12 @@ function About() {
           data-aos="fade-up"
           data-aos-anchor-placement="top-center">
             <h2 className='font-bold text-3xl text-[#242D49] dark:text-white'><span className="text-[#f5c32c]">About </span> Us</h2>
-            <p className='text-center md:text-left  md:text-2xl break-words break-before-left dark:text-white'>We have been building websites for more than a decade.
-              From small businesses to large corporations, and across
-              industries and markets, our creative team is determined
-              to unleash innovative and effective designs that boost
-              your brand and grow your business to achieve your goals.
+            <p className='text-center md:text-left  md:text-2xl break-words break-before-left dark:text-white'>
+            Welcome Amesa Solutions At the intersection of technology and creativity, we're dedicated to turning 
+            your digital concepts into reality. Our expertise spans website and software development, captivating 
+            UI/UX design, and compelling graphic design. By working closely with you, we craft solutions that not 
+            only meet your goals but exceed your expectations, creating a truly remarkable digital presence. Join 
+            us in shaping the future of exceptional digital experiences.
             </p>
             <button id="btn" className='w-[9rem] bg-[#242D49] dark:bg-[#f5c32c] hover:bg-[#] text-xl text-white rounded-[4px]  shadow-[0px_4px_0px_0px_#191e2e] hover:shadow-[0px_-4px_0px_0px_#191e2e] dark:shadow-[0px_4px_0px_0px_#8d6b05] dark:hover:shadow-[0px_-4px_0px_0px_#8d6b05]'>
               Contact us
