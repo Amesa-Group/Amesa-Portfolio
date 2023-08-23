@@ -15,14 +15,9 @@ function About() {
           data-aos-anchor-placement="top-center">
             <h2 className='font-bold text-3xl text-[#242D49] dark:text-white'><span className="text-[#f5c32c]">About </span> Us</h2>
             <p className='text-center md:text-left  md:text-2xl break-words break-before-left dark:text-white'>
-            Welcome to the dynamic realm of Amesa Solutions! We are your gateway to turning abstract technological ideas
-            into concrete realities. Specializing in the fusion of innovation and creativity, we excel at crafting exceptional 
-             digital experiences.
-            Our expertise spans a range of cutting-edge services, including website and software development, that breathe life 
-              into your concepts. Our captivating UI/UX designs engage and delight users, while our compelling graphic 
-              design sets your brand apart.
-            At Amesa Solutions, collaboration is at the heart of our process. By closely partnering with you, we create solutions that 
-            not only align with your goals but transcend your expectations, resulting in a truly remarkable digital presence.
+          Welcome to Amesa Solutions! Step into our realm, where creativity meets technology. We specialize in crafting exceptional digital experiences by turning abstract ideas into concrete reality.
+           Our expertise includes cutting-edge website and software development that brings your concepts to life. Engaging UI/UX designs captivate users, while compelling graphics elevate your brand.
+            Through collaboration, we create solutions that align with your goals and exceed expectations, establishing a remarkable digital presence.
 
             </p>
             <button id="btn" className='w-[9rem] bg-[#242D49] dark:bg-[#f5c32c] hover:bg-[#] text-xl text-white rounded-[4px]  shadow-[0px_4px_0px_0px_#191e2e] hover:shadow-[0px_-4px_0px_0px_#191e2e] dark:shadow-[0px_4px_0px_0px_#8d6b05] dark:hover:shadow-[0px_-4px_0px_0px_#8d6b05]'>
