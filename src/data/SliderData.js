@@ -3,7 +3,7 @@ const SliderData = [
         id: 1,
         Title: "TenantCare App",
         Description: "Propert Management Tool",
-        url: "https://tenantcare.netlify.app",
+        url: "https://tenants-management.netlify.app",
         urlImage: "https://i.ibb.co/Pg45ysp/Cover-2.jpg"
     },
     {
