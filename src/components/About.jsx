@@ -15,9 +15,7 @@ function About() {
           data-aos-anchor-placement="top-center">
             <h2 className='font-bold text-3xl text-[#242D49] dark:text-white'><span className="text-[#f5c32c]">About </span> Us</h2>
             <p className='text-center md:text-left  md:text-2xl break-words break-before-left dark:text-white'>
-          Welcome to Amesa Solutions! Step into our realm, where creativity meets technology. We specialize in crafting exceptional digital experiences by turning abstract ideas into concrete reality.
-           Our expertise includes cutting-edge website and software development that brings your concepts to life. Engaging UI/UX designs captivate users, while compelling graphics elevate your brand.
-            Through collaboration, we create solutions that align with your goals and exceed expectations, establishing a remarkable digital presence.
+         Website design and development business Amesa Solutions offers end-to-end development services. We operate with a variety of technologies, including open source, proprietary, and solutions that are specifically designed for us. Here is how we work:
 
             </p>
             <button id="btn" className='w-[9rem] bg-[#242D49] dark:bg-[#f5c32c] hover:bg-[#] text-xl text-white rounded-[4px]  shadow-[0px_4px_0px_0px_#191e2e] hover:shadow-[0px_-4px_0px_0px_#191e2e] dark:shadow-[0px_4px_0px_0px_#8d6b05] dark:hover:shadow-[0px_-4px_0px_0px_#8d6b05]'>
